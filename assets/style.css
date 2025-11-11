@@ -1,3 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
+}
+   #container {
+    width: 90%;
+    margin: 0 auto;
 }
