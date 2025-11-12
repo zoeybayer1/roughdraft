@@ -2,15 +2,20 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Georgia", serif;
+  font-family: "Bodoni Moda", serif;
 }
 body {
-  background: #CAC7FF;
+  background: url(background.jpg) no-repeat fixed top right;
   color: #111;
   line-height: 1.6;
 }
 .flex-container{
     display: flex;
+      justify-content: center;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 1.5rem;
 }
 .header {
   display: flex;
@@ -23,6 +28,13 @@ body {
 h1 {
   font-size: 1.8rem;
   letter-spacing: 1px;
+  color: #FFF6C7;
+}
+h2 {
+  color:#426080;
+}
+p {
+  color:#426080;
 }
 .nav {
   background: #426080;
@@ -33,13 +45,42 @@ h1 {
   padding: 0.75rem 0;
 }
 .nav a {
-  color: white;
+  color:#FFF6C7;
   text-decoration: none;
   font-weight: 500;
 }
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+  background: #CAC7FF;
+}
+.about-img {
+  width: 200px;
+  border-radius: 6px;
+  border: 3px solid #426080;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.5rem 2rem;
+  border-top: 3px solid #426080;
+}
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
 @media only screen and (min-width: 768px) {
 }
    #container {
     width: 90%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
