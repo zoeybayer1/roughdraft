@@ -14,8 +14,14 @@ body {
       justify-content: center;
 }
 .hero {
-  text-align: center;
-  padding: 4rem 1.5rem;
+background-image: url(hero.jpg);
+display: flex;
+margin: auto;
+background-repeat: no-repeat;
+background-repeat: no-repeat;
+background-size: auto;
+width: 4032px;
+height: 721px;
 }
 .header {
   display: flex;
