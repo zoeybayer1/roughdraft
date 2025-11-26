@@ -14,14 +14,18 @@ body {
       justify-content: center;
 }
 .hero {
-background-image: url(hero.jpg);
-display: flex;
-margin: auto;
-background-repeat: no-repeat;
-background-repeat: no-repeat;
-background-size: auto;
-width: 4032px;
-height: 721px;
+ background-image: url(hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 300px; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero > h2 {
+background-color: #CAC7FF;
 }
 .header {
   display: flex;
@@ -55,6 +59,12 @@ p {
   text-decoration: none;
   font-weight: 500;
 }
+.ptext{
+  display: flex;
+  text-align: center;
+    gap: 4rem;
+  padding: 0rem 4rem;
+}
 .about {
   display: flex;
   align-items: center;
@@ -62,14 +72,45 @@ p {
   gap: 2rem;
   padding: 3rem 2rem;
   flex-wrap: wrap;
-  background: #CAC7FF;
+  background:#CAC7FF
 }
 .about-img {
   width: 200px;
   border-radius: 6px;
-  border: 3px solid #426080;
+  border: 3px solid #426080
 }
-.footer {
+.about-text {
+  max-width: 500px;
+}
+.contam {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+    border-radius: 4px;
+}
+.item {
+    background-color: #ffffff; 
+    padding: 20px; 
+    color: #000000; 
+    text-align: center;
+    border-radius: 4px;
+    flex: 1; 
+    word-wrap: break-word; 
+}
+#accordion {
+  width: 500px; 
+  margin: 50px auto; 
+}
+.ui-accordion-header.ui-state-active {
+    background: #FFF6C7; 
+    color: #426080;
+    background-image: none; 
+}
+.ui-accordion-header.ui-state-active a {
+    color: #426080; 
+  }
+  footer {
   display: flex;
   justify-content: center;
   align-items: center;
