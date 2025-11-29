@@ -115,8 +115,6 @@ p {
   gap: 20px;
    padding: 20px;
    align-items: center;
-   max-width: 1200;
-   margin: 0 auto;
 }
 .column { 
   flex: 1 1 auto;
